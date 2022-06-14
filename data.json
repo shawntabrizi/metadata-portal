@@ -10,16 +10,16 @@
     "metadataVersion": 9220,
     "metadataQr": {
       "path": "/qr/polkadot_metadata_9220.apng",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
     },
     "nextMetadataVersion": 9230,
     "nextMetadataQr": {
       "path": "/qr/polkadot_metadata_9230.apng",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
     },
     "specsQr": {
       "path": "/qr/polkadot_specs.png",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
     }
   },
   "kusama": {
@@ -33,13 +33,13 @@
     "metadataVersion": 9230,
     "metadataQr": {
       "path": "/qr/kusama_metadata_9230.apng",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
     "specsQr": {
       "path": "/qr/kusama_specs.png",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
     }
   },
   "westend": {
@@ -53,13 +53,133 @@
     "metadataVersion": 9230,
     "metadataQr": {
       "path": "/qr/westend_metadata_9230.apng",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
     },
     "nextMetadataVersion": null,
     "nextMetadataQr": null,
     "specsQr": {
       "path": "/qr/westend_specs.png",
-      "signedBy": "Parity"
+      "signedBy": "Shawn (unverified)"
+    }
+  },
+  "acala": {
+    "name": "acala",
+    "rpcEndpoint": "wss://acala-rpc-0.aca-api.network",
+    "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+    "unit": "UNIT",
+    "base58prefix": 10,
+    "logo": "acala",
+    "decimals": 0,
+    "metadataVersion": 2064,
+    "metadataQr": {
+      "path": "/qr/unsigned_acala_metadata_2064.apng",
+      "signedBy": null
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/unsigned_acala_specs.png",
+      "signedBy": null
+    }
+  },
+  "moonbeam": {
+    "name": "moonbeam",
+    "rpcEndpoint": "wss://wss.api.moonbeam.network",
+    "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+    "unit": "GLMR",
+    "base58prefix": 1284,
+    "logo": "moonbeam",
+    "decimals": 18,
+    "metadataVersion": 1504,
+    "metadataQr": {
+      "path": "/qr/unsigned_moonbeam_metadata_1504.apng",
+      "signedBy": null
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/unsigned_moonbeam_specs.png",
+      "signedBy": null
+    }
+  },
+  "astar": {
+    "name": "astar",
+    "rpcEndpoint": "wss://rpc.astar.network",
+    "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+    "unit": "ASTR",
+    "base58prefix": 5,
+    "logo": "astar",
+    "decimals": 18,
+    "metadataVersion": 18,
+    "metadataQr": {
+      "path": "/qr/unsigned_astar_metadata_18.apng",
+      "signedBy": null
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/unsigned_astar_specs.png",
+      "signedBy": null
+    }
+  },
+  "centrifuge": {
+    "name": "centrifuge",
+    "rpcEndpoint": "wss://fullnode.parachain.centrifuge.io",
+    "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
+    "unit": "CFG",
+    "base58prefix": 36,
+    "logo": "centrifuge",
+    "decimals": 18,
+    "metadataVersion": 1005,
+    "metadataQr": {
+      "path": "/qr/unsigned_centrifuge_metadata_1005.apng",
+      "signedBy": null
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/unsigned_centrifuge_specs.png",
+      "signedBy": null
+    }
+  },
+  "clover-mainnet": {
+    "name": "clover-mainnet",
+    "rpcEndpoint": "wss://rpc-para.clover.finance",
+    "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
+    "unit": "CLV",
+    "base58prefix": 128,
+    "logo": "clover-mainnet",
+    "decimals": 18,
+    "metadataVersion": 19,
+    "metadataQr": {
+      "path": "/qr/unsigned_clover-mainnet_metadata_19.apng",
+      "signedBy": null
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/unsigned_clover-mainnet_specs.png",
+      "signedBy": null
+    }
+  },
+  "hydradx": {
+    "name": "hydradx",
+    "rpcEndpoint": "wss://rpc-01.hydradx.io",
+    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+    "unit": "HDX",
+    "base58prefix": 63,
+    "logo": "hydradx",
+    "decimals": 12,
+    "metadataVersion": 104,
+    "metadataQr": {
+      "path": "/qr/unsigned_hydradx_metadata_104.apng",
+      "signedBy": null
+    },
+    "nextMetadataVersion": null,
+    "nextMetadataQr": null,
+    "specsQr": {
+      "path": "/qr/unsigned_hydradx_specs.png",
+      "signedBy": null
     }
   }
 }
