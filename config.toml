@@ -3,8 +3,8 @@ public_dir = "public"
 qr_dir = "public/qr"
 
 [verifier]
-name = "Parity"
-public_key = "c46a22b9da19540a77cbde23197e5fd90485c72b4ecf3c599ecca6998f39bd57"
+name = "Shawn (unverified)"
+public_key = ""
 
 # Optional. Only used when updating from GitHub releases
 [github]
@@ -28,3 +28,27 @@ name = "westend"
 rpc_endpoint = "wss://westend-rpc.polkadot.io"
 # Optional. Only used when updating from GitHub releases
 genesis_hash = "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e"
+
+[[chains]]
+name = "acala"
+rpc_endpoint = "wss://acala-rpc-0.aca-api.network"
+
+[[chains]]
+name = "moonbeam"
+rpc_endpoint = "wss://wss.api.moonbeam.network"
+
+[[chains]]
+name = "astar"
+rpc_endpoint = "wss://rpc.astar.network"
+
+[[chains]]
+name = "centrifuge"
+rpc_endpoint = "wss://fullnode.parachain.centrifuge.io"
+
+[[chains]]
+name = "clover-mainnet"
+rpc_endpoint = "wss://rpc-para.clover.finance"
+
+[[chains]]
+name = "hydradx"
+rpc_endpoint = "wss://rpc-01.hydradx.io"
