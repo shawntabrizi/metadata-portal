@@ -8,8 +8,8 @@ public_key = ""
 
 # Optional. Only used when updating from GitHub releases
 [github]
-owner = "paritytech"
-repo = "polkadot"
+owner = "shawntabrizi"
+repo = "metadata-portal"
 
 [[chains]]
 name = "polkadot"
